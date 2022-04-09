@@ -1,0 +1,140 @@
+:root{
+    --primary_red:RGB(177,19,19);
+    --primary_yellow: RGB(241,197,48);
+    --primary_blue:RGB(17,76,146);
+    --primary_black: RGB(0,0,0);
+    --primary_white:RGB(255,255,255)
+}
+@font-face {
+    font-family: 'FarFromHomecomingRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/far-from-homecoming-cufonfonts-webfont/Far-From\ Homecoming.woff') format('woff');
+    }
+* {
+    color: var(--primary_white);
+}
+
+html{
+    font-size: xx-small;
+}
+.h1 {
+    font-family: 'FarFromHomecomingRegular';
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.h2 {
+    font-family: 'FarFromHomecomingRegular';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav {
+    background-color: var(--primary_red);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+nav span {
+padding: 4%;
+}
+nav a {
+    text-decoration: none;
+    color: var(--primary_white);
+    font-weight: bold;
+}
+
+nav a:hover {
+font-weight: bold;
+color: var(--primary_white);
+}
+
+.spidermanTitre {
+    color: var(--primary_white);
+    background: url(../Illustration/img1.png) var(--primary_red);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding: 10%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.formArrondi {
+text-align: center;
+color: var(--primary_white);
+width: 200px;
+height: 30px;
+border-radius: 10px;
+border: solid 1px var(--primary_white);
+padding: 1%;
+margin: 1% 1% 1% 0;
+}
+.auCinema{
+    background-color: var(--primary_red);
+    padding: 10%;
+}
+.deviens{
+    background: url(../Illustration/img5.png) no-repeat;
+    background-position-x: left;
+    background-size: contain;
+    background-color: var(--primary_blue);
+   padding: 10% 0;
+}
+form {
+    text-align: center;
+}
+.deviens input, .inscription input {
+    border: 0;
+    border-radius: 10px;
+    margin: 1%;
+    width: 300px;
+}
+
+.inscription{
+    background-color: ;
+    padding: 10%;
+    background: url(../Illustration/img6.png) var(--primary_red);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.inscription input {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;
+}
+footer {
+    background-color: var(--primary_black); 
+}
+footer .menu {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+footer .menu div{
+    padding: 5% 2%;
+}
+
+footer .icon span {
+   background-color: var(--primary_red);
+   border-radius: 50%;
+   margin: 1%;
+}
+footer .copyright {
+    padding: 2%;
+}
+footer select {
+    background-color: var(--primary_red);
+    border-radius: 10px;
+    margin: 1%;
+}
+
+@media screen and (max-width: 440px) {
+    h1 {
+        
+    }
+    .spidermanTitre{
+        padding: 5% !important;
+    }
+}

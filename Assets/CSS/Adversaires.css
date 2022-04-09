@@ -1,0 +1,16 @@
+.superVilain{
+background: url(../Illustration/img7.png) no-repeat;
+background-position-x: right;
+padding: 30% 10%;
+}
+.listAdversaires{
+    background-color: var(--primary_yellow);
+}
+.listAdversaires img {
+width: 100%;
+}
+.listAdversaires p {
+    border: 5px solid var(--primary_black);
+    border-radius: 0 0 10px 10px ;
+    border-top: 0;
+}

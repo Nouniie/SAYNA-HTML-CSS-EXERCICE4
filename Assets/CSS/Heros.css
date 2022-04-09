@@ -1,0 +1,41 @@
+.heros{
+    background-image: url(../Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    padding: 20%;
+    
+}
+.valeurs{
+    background-color: var(--primary_blue);
+    padding: 10%;
+}
+.paragraph{
+    text-align: justify;
+}
+.solide {
+    background-image: url(../Illustration/img20.png);
+    padding: 200px 10%;
+}
+.paragraph {
+    background-color: var(--primary_blue);
+    padding: 10%;
+}
+.avengers{
+    background-color: var(--primary_red);
+    padding: 10%;
+}
+.avengers img{
+width: 100%;
+padding: 5%;
+}
+.univers{
+    background: url(../Illustration/img33.png) 50% 50% no-repeat;
+}
+#fondbleu {
+text-align: center;
+margin: 0 20% 0 50%;
+background-color: rgba(17,76,146,0.6);
+padding: 2% 4%;
+}
+

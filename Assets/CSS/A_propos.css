@@ -1,0 +1,18 @@
+.laToile{
+    background: url(../Illustration/img5-5.png) no-repeat;
+    background-color: var(--primary_yellow);
+    background-position-x: right;
+    background-size: contain;
+    padding: 10%;
+}
+.petiteAntenne{
+    background-color: var(--primary_red);
+}
+
+.saynaXmarvel{
+    background-color: var(--primary_blue);
+
+}
+* section {
+    padding: 0 10%;
+}
